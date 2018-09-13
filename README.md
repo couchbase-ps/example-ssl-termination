@@ -24,7 +24,7 @@ docker-compose up -d --build
 
 Once the container has been started, it will automatically configure itself as a single node cluster and load the `travel-sample` bucket.  This takes a 15-30 seconds to complete, running the following command will verify the setup is complete: 
 
-**Monitor startup statush**
+**Monitor startup status**
 
 ```bash
 docker logs couchbase
