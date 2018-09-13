@@ -1,4 +1,4 @@
-# Alternate Addresses Example
+# SSL Termination Example
 
 This example illustrates SSL termination with Couchbase using alternate addresses.   NOTE: Requires Couchbase Server 5.5+ and latest [2.6.0+ build of Java SDK](https://docs.couchbase.com/java-sdk/2.6/start-using-sdk.html).
 
