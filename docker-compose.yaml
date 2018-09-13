@@ -1,0 +1,24 @@
+version: '2'
+services:
+  couchbase:
+    build:
+      context: ./.docker/couchbase
+    container_name: couchbase
+    ports:
+      - "8091-8096:8091-8096"
+      - "18091-18096:18091-18096"
+      - "28091-28096:28091-28096"
+      - "11207:11207"
+      - "11210-11211:11210-11211"
+      - "21207:21207"
+    environment:
+      CLUSTER_USERNAME: Administrator
+      CLUSTER_PASSWORD: password
+      CLUSTER_NAME: Demo Couchbase
+      SERVICES: data,index,query
+      CLUSTER_RAMSIZE: 500
+      BUCKET: demo
+      ENABLE_FLUSH: 1
+      RBAC_USERNAME: demo
+      RBAC_PASSWORD: password
+      RBAC_ROLES: admin

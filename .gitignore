@@ -1,0 +1,8 @@
+*.apdisk
+*.ap_
+*.log
+*.DS_Store
+*.TemporaryItems
+*.cert
+Thumbs.db
+target
