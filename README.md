@@ -119,3 +119,5 @@ keytool -delete \
 ## Run
 
 Run the `Test.java` application and view the logs.  By default the sample application has the finest level of logging turned on.  It will connect to the cluster, retrieve 1 document via the `get()` method and another document via a N1QL select statement.
+
+You will need to edit the application to point to the appropriate keystore.
